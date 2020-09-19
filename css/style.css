@@ -146,15 +146,24 @@
 }
 #SignUp {
 	text-align: center;
-	margin-top: 2%;
+	margin: 3% auto;
 	background-color: #1ed760;
 	border: none;
 	width: 230px;
 	height: 50px;
+	line-height: 50px;
 	border-radius: 100px;
 	color: #2d46b9;
 	font-weight: bold;
+	display:block;
+	overflow: hidden;
+	text-decoration: none
 }
+
+#SignUp:hover, #SignUp:focus {
+	background-color: white;
+}
+
 #text1 {
 	font-size: 9em;
 	font-weight: bold;
