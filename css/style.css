@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
 /* Navbar Styling */
 /* Navbar */
 .navbar {
@@ -260,6 +267,150 @@
 	position: absolute;
 	right: 20%;
 	bottom: -55px;
+}
+
+/* Upper Footer Styling */
+.upperFooter{
+  font-family: Arial, Helvetica, san-serif;  
+  width: 100%;
+  display: block;
+  background-color: #000;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.upperFooter .innerFooter{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box; 
+  overflow: hidden;
+  position: relative;
+}
+
+.upperFooter .innerFooter .logo{
+  width: 15%;
+  float: left;
+  height: 100%;
+}
+
+.upperFooter .innerFooter .logo .iconSpotify{
+  list-style: none;
+  display: inline;
+  font-size: 40px;
+}
+
+.upperFooter .innerFooter .logo .footerLink{
+  color: #fff;
+}
+
+.upperFooter .innerFooter .logo .spotifyName{
+  color: #FFF;
+  font-size: 24px;
+  display: inline;
+}
+
+.upperFooter .innerFooter .logo .spotifyName:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.upperFooter .innerFooter .additionalLinks{
+  width: 16%;
+  float:left;
+  height:100%;
+}
+
+.upperFooter .innerFooter .additionalLinks .footerLinkName{
+  font-size: 14px;
+  color:#808080;
+  display: block;
+  width: 100%;
+  line-height: 2.75em;
+  padding-left: 25%;
+}
+
+.upperFooter .innerFooter .additionalLinks .footerLink{
+  font-size: 16px;
+  color:#FFF;
+  display: block;
+  width: 100%;
+  line-height: 2.5em;
+  padding-left: 25%;
+}
+
+.upperFooter .innerFooter .additionalLinks .footerLink:hover{
+  color: #00FF00;
+  text-decoration: none;
+}
+
+.upperFooter .innerFooter .icons{
+  position: absolute;
+  top: 10%;
+  right: 3.5%;
+}
+
+.upperFooter .innerFooter .icons .iconInstergram, 
+.upperFooter .innerFooter .icons .iconTwitter, 
+.upperFooter .innerFooter .icons .iconFacebook{
+  list-style: none;
+  display: inline;
+  font-size: 25px;
+  margin: 0px 5px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  border-color: #202020;
+  background-color: #202020;
+}
+
+.upperFooter .innerFooter .icons .iconInstergram{
+  padding: 10px 15px;
+}
+
+.upperFooter .innerFooter .icons .iconTwitter{
+  padding: 10px 8px;
+}
+
+.upperFooter .innerFooter .icons .iconFacebook{
+  padding: 10px 17.5px;
+}
+
+.upperFooter .innerFooter .icons .footerLink{
+  color: #fff;
+}
+
+.upperFooter .innerFooter .icons .footerLink:hover{
+  color: #00FF00;
+  text-decoration: none;
+}
+
+@media(max-width: 800px){
+  .upperFooter .innerFooter{
+    width:100%;
+    float: none;
+  }
+
+  .upperFooter .innerFooter .logo,
+  .upperFooter .innerFooter .additionalLinks{
+    width: 100%;
+    float: none;
+  }
+
+  .upperFooter .innerFooter .additionalLinks .{
+    padding-bottom: 10%;
+  }
+
+  .upperFooter .innerFooter .additionalLinks .footerLinkName, 
+  .upperFooter .innerFooter .additionalLinks .footerLink{
+    padding-left: 2%;
+  }
+
+  .upperFooter .innerFooter .icons{
+    padding-top: 10%;
+    position: relative;
+    bottom: 95%;
+    left: 1%;
+  }
 }
 
 
