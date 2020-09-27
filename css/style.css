@@ -7,6 +7,14 @@
 
 /* Navbar Styling */
 /* Navbar */
+#barNav{
+  position: relative;
+  top:5px;
+  border-radius: 0.25rem;
+  padding-right: 1rem;
+  font-weight: 0;
+  margin: 0 0.25em;
+}
 .navbar {
   background-color: #000000;
   padding-top: 0.6rem;
