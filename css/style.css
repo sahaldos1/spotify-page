@@ -19,7 +19,7 @@
   background-color: #000000;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-  position: fixed;
+  position: relative;
 }
 .navbar .navbar-brand {
   color: #ffffff;
