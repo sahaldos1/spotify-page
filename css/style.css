@@ -488,3 +488,129 @@ footer {
   padding: 0;
   margin-bottom: 0;
 }
+/*Extra upper-footer styling implementation
+
+.upperfooter-box{
+  width: 100%;
+  background-color: black;
+  padding-top: 5%;
+  padding-bottom: 3%
+  display: block;
+}
+
+
+.upperfooter-box .footer-top{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.upperfooter-box .footer-top .footer-top-spotifyLogo{
+  width: 16.667%;
+  height: 100%;
+  float: left;
+  display: inline;
+  margin-top: -25px;
+}
+
+.upperfooter-box .footer-top .footer-top-center{
+
+}
+.upperfooter-box .footer-top .footer-top-center .table{
+  width: 16%;
+  height: 100%;
+  float: left;
+  display: inline;
+  font-size: 16px;
+  font-family: Circular, spotify-circular, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+}
+.upperfooter-box .footer-top .footer-top-center .table dd a:hover{
+  color: #1ed760;
+  text-decoration: none;
+}
+.upperfooter-box .footer-top .footer-top-center .table dd {
+  margin-top: 24px;
+}
+.upperfooter-box .footer-top .footer-top-center .table dd a{
+  color: #fff;
+  text-decoration: none;
+}
+.upperfooter-box .footer-top .footer-top-center .table .table-title{
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.upperfooter-box .footer-top .icons {
+  position: absolute;
+  top: 10%;
+  right: 3.5%;
+}
+
+.upperfooter-box .footer-top .icons .iconInstergram,
+.upperfooter-box .footer-top .icons .iconTwitter,
+.upperfooter-box .footer-top .icons .iconFacebook {
+  list-style: none;
+  display: inline;
+  font-size: 25px;
+  margin: 0px 5px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  border-color: #202020;
+  background-color: #202020;
+}
+
+.upperfooter-box .footer-top .icons .iconInstergram {
+  padding: 10px 15px;
+}
+
+.upperfooter-box .footer-top .icons .iconTwitter {
+  padding: 10px 8px;
+}
+
+.upperfooter-box .footer-top .icons .iconFacebook {
+  padding: 10px 17.5px;
+}
+
+.upperfooter-box .footer-top .icons .footerLink {
+  color: #fff;
+}
+
+.upperfooter-box .footer-top .icons .footerLink:hover {
+  color: #00FF00;
+  text-decoration: none;
+}
+@media(max-width: 551px){
+  .upperfooter-box .footer-top{
+    width: 100%;
+
+  }
+
+
+
+  .upperfooter-box .footer-top .footer-top-spotifyLogo a img{
+    display: block;
+    float:none;
+
+  }
+  .upperfooter-box .footer-top .icons {
+    display: block;
+    float: none;
+    position: relative;
+    left: 0%;
+
+  }
+  .upperfooter-box .footer-top .footer-top-center .table{
+    display: block;
+    float: none;
+
+  }
+}
+*/
+
